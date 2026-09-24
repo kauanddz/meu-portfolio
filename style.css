@@ -1,11 +1,11 @@
 /* Variáveis de cores (Tema Escuro + Verde) */
 :root {
-    --fundo-principal: #0F1714; /* Preto profundo esverdeado */
-    --fundo-secundario: #1A2622; /* Cinza escuro esverdeado */
-    --texto-principal: #E0E0E0;
-    --texto-secundario: #A0AEC0;
-    --cor-destaque: #00D26A; /* Verde vibrante */
-    --cor-destaque-hover: #00B359;
+    --fundo-principal: #000000; 
+    --fundo-secundario: #121212; 
+    --texto-principal: #F5F5F5;
+    --texto-secundario: #A0A0A0;
+    --cor-destaque: #00FF55;
+    --cor-destaque-hover: #00CC44;
 }
 
 /* Reset básico */
@@ -71,7 +71,7 @@ nav a:hover {
 /* Seções Comuns */
 .secao {
     padding: 60px 0;
-    border-bottom: 1px solid #2A3B35;
+    border-bottom: 1px solid #222222
 }
 
 .secao h3 {
