@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kauan Bruno | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Kauan Bruno</h1>
+            <h2>Estudante de Ciência da Computação & Aprendiz em Infraestrutura de Banco de Dados na XP Inc.</h2>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="sobre" class="secao">
+            <h3>Sobre Mim</h3>
+            <p>Sou estudante de Ciência da Computação na Universidade Cruzeiro do Sul e atuo como Aprendiz em Infraestrutura de Banco de Dados na XP Inc. Tenho focado o meu desenvolvimento no estudo de bancos de dados como Oracle, SQL Server e MongoDB, além de aprofundar conhecimentos em engenharia de dados utilizando bibliotecas como Pandas e plataformas cloud como Azure. O meu objetivo é continuar evoluindo tecnicamente para consolidar a minha carreira como Engenheiro de Dados.</p>
+            <div class="acoes">
+                <a href="curriculo.pdf" target="_blank" class="botao">Baixar Currículo (PDF)</a>
+            </div>
+        </section>
+
+        <section id="habilidades" class="secao">
+            <h3>Competências Técnicas</h3>
+            <div class="grid-habilidades">
+                <div class="card">
+                    <h4>Nível Intermediário</h4>
+                    <p>SQL, Redes, Python, PostgreSQL</p>
+                </div>
+                <div class="card">
+                    <h4>Nível Básico</h4>
+                    <p>C#, .NET, Supabase, AWS, BigQuery, Oracle, SQL Server, MongoDB, Pandas, Azure</p>
+                </div>
+            </div>
+
+            <h3 class="mt-2">Competências Comportamentais</h3>
+            <ul class="lista-soft-skills">
+                <li><strong>Adaptabilidade e Aprendizado Contínuo:</strong> Transição ágil de operações logísticas para infraestrutura técnica, equilibrando a faculdade, o ambiente corporativo e o aprendizado de novas linguagens (Python, NoSQL).</li>
+                <li><strong>Resolução de Problemas e Visão Prática:</strong> Co-desenvolvimento do sistema de gestão web "TS School", aplicando a teoria na criação de soluções e modelagem de dados do zero.</li>
+                <li><strong>Comunicação e Espírito Colaborativo:</strong> A experiência prévia como aluno monitor facilitou a capacidade de transmitir informações de forma clara, essencial para a integração atual nas equipes de infraestrutura.</li>
+            </ul>
+        </section>
+
+        <section id="projetos" class="secao">
+            <h3>Projetos</h3>
+            <div class="card-projeto">
+                <h4>Desenvolvedor Web Freelancer - TS School</h4>
+                <p><strong>Período:</strong> 06/2025 – 01/2026</p>
+                <p><strong>Objetivo:</strong> Desenvolvimento de sistema web para escola de idiomas com gestão de mais de 400 alunos.</p>
+                <ul>
+                    <li>Modelagem e administração de banco de dados (Supabase com PostgreSQL), estruturando tabelas e relacionamentos (PKs e FKs).</li>
+                    <li>Configuração de políticas de segurança (RLS) e rotinas de backup automático.</li>
+                    <li>Deploy da aplicação via Vercel e GitHub com variáveis de ambiente seguras.</li>
+                    <li>Levantamento e ajuste de requisitos com o cliente.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="formacao" class="secao">
+            <h3>Formação e Cursos</h3>
+            <ul>
+                <li><strong>Ciência da Computação</strong> - Universidade Cruzeiro do Sul (Previsão: Dez. 2029)</li>
+                <li><strong>Infraestrutura e Redes:</strong> Google IT Support Professional Certificate (Em andamento)</li>
+                <li><strong>Análise de Dados:</strong> Google Data Analytics Professional Certificate</li>
+                <li><strong>Banco de Dados:</strong> MySQL - Modelagem e Consultas (Curso em Vídeo)</li>
+                <li><strong>Programação:</strong> Python (SENAI) | C# POO Completo (Nélio Alves - Em andamento)</li>
+            </ul>
+        </section>
+
+        <section id="contato" class="secao">
+            <h3>Contatos</h3>
+            <div class="links-contato">
+                <a href="mailto:kauanbrunodasilva@gmail.com" class="botao-outline">E-mail</a>
+                <a href="https://www.linkedin.com/in/kauan-bruno-da-silva" target="_blank" class="botao-outline">LinkedIn</a>
+                <a href="https://github.com/kauanddz" target="_blank" class="botao-outline">GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kauan Bruno. Desenvolvido para a disciplina de Design Profissional.</p>
+    </footer>
+</body>
+</html>
